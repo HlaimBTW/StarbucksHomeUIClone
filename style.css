@@ -387,3 +387,30 @@ header a:hover {
   font-weight: 700;
   height: 100%;
 }
+footer {
+  text-align: center;
+  padding: 50px;
+}
+footer span {
+  margin: 30px;
+  text-decoration: none;
+  color: black;
+  font-size: 50px;
+  font-family: var(--font);
+  font-weight: 300;
+  height: 100%;
+}
+footer ul {
+  display: flex;
+  gap: 5rem;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+footer li a i {
+  font-size: 50px;
+  transition: 0.3s;
+}
+footer li a i:hover {
+  transform: scale(1.2);
+}
